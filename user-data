@@ -4,7 +4,7 @@ coreos:
   etcd:
     # generate a new token for each unique cluster from https://discovery.etcd.io/new
     # WARNING: replace each time you 'vagrant destroy'
-    #discovery: https://discovery.etcd.io/004e3be4f700867c1ed82da6cc29bcc9
+    discovery: https://discovery.etcd.io/59d2dee843e1a2fbe6d3276e60cc612d
     addr: $public_ipv4:4001
     peer-addr: $public_ipv4:7001
   fleet:
